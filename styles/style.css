@@ -310,3 +310,48 @@ footer{
     font-weight: 400;
     padding-top: 4.5%;
 }
+
+/* Responsive Css */
+@media screen and (min-width: 375px) and (max-width:480px){
+    nav ,ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+        header, main {
+            padding: 35px 0px;
+        }
+        .btn-primary{
+                margin: 39px 0 37px 97px;
+        }
+        .banner-heading{
+            padding-top: 35px
+        }
+        .feature-section, .Love-Enjoy, .sponspors{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+        }
+        .fact-box-4{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            gap: 40px;
+            align-items: center;
+        }
+        .sponsor-img{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+        }
+        .enjoy-img{
+            width: 75%;
+        }
+        .secondary-btn
+        {
+                margin: 1308px 0 529px 32px;
+                width: 220px;
+                height:120px ;
+                font-size: 39px;
+        }
+        
+}
+head{
+    display: none;
+}
