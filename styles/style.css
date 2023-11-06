@@ -341,7 +341,7 @@ footer{
             grid-template-columns: repeat(2, 2fr);
         }
         .enjoy-img{
-            width: 75%;
+            width: 100%;
         }
         .secondary-btn
         {
